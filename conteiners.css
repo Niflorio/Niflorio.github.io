@@ -1,0 +1,379 @@
+._3d_container_1 {
+    position: relative;
+    width: 72vw;
+    height: 40.5vw;
+    margin: 0 auto;
+    border-radius: 1vh;
+    overflow: hidden;
+    
+}
+
+._3d_photo_1 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+._3d_photo_1 img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+._3d_photo_1 img.active {
+
+    animation-duration: 1s;
+    animation-name: photos_1;
+    opacity: 1;
+}
+
+@keyframes photos_1 {
+    from {
+        transform: translateX(-100%)
+      }
+    
+      to {
+        transform: translateX(0)
+      }
+}
+  
+
+._3d_prev-button_1,
+._3d_next-button_1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+  
+._3d_prev-button_1 {
+    left: 10px;
+}
+  
+._3d_next-button_1 {
+    right: 10px;
+}
+
+
+
+._2d_container_1 {
+    position: relative;
+    width:65vw;
+    height: 46.5vw;
+    margin: 0 auto;
+    border-radius: 1vh;
+    overflow: hidden;
+}
+
+._2d_photo_1 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+._2d_photo_1 img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+._2d_photo_1 img.active {
+
+    animation-duration: 1s;
+    animation-name: _2d_photo_1;
+    opacity: 1;
+}
+
+@keyframes _2d_photo_1 {
+    from {
+        transform: translateX(-100%)
+      }
+    
+      to {
+        transform: translateX(0)
+      }
+}
+  
+
+._2d_prev-button_1,
+._2d_next-button_1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+  
+._2d_prev-button_1 {
+    left: 10px;
+}
+  
+._2d_next-button_1 {
+    right: 10px;
+}
+
+/*----------------------------*/
+
+._3d_container_2 {
+    position: relative;
+    width: 72vw;
+    height: 40.5vw;
+    margin: 0 auto;
+    border-radius: 1vh;
+    overflow: hidden;
+    
+}
+
+._3d_photo_2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+._3d_photo_2 img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+._3d_photo_2 img.active {
+
+    animation-duration: 1s;
+    animation-name: _3d_photos_2;
+    opacity: 1;
+}
+
+@keyframes _3d_photos_2 {
+    from {
+        transform: translateX(-100%)
+      }
+    
+      to {
+        transform: translateX(0)
+      }
+}
+  
+
+._3d_prev-button_2,
+._3d_next-button_2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+  
+._3d_prev-button_2 {
+    left: 10px;
+}
+  
+._3d_next-button_2 {
+    right: 10px;
+}
+
+
+
+._2d_container_2 {
+    position: relative;
+    width: 60vw;
+    height: 40.5vw;
+    border-radius: 1vh;
+    overflow: hidden;
+}
+
+._2d_photo_2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+._2d_photo_2 img {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+._2d_photo_2 img.active {
+
+    animation-duration: 1s;
+    animation-name: _2d_photo_2;
+    opacity: 1;
+}
+
+@keyframes _2d_photo_2 {
+    from {
+        transform: translateX(-100%)
+      }
+    
+      to {
+        transform: translateX(0)
+      }
+}
+  
+
+._2d_prev-button_2,
+._2d_next-button_2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+  
+._2d_prev-button_2 {
+    left: 10px;
+}
+  
+._2d_next-button_2 {
+    right: 10px;
+}
+
+/*---------------------------------------------------------*/
+
+._3d_container_3 {
+    position: relative;
+    width: 72vw;
+    height: 40.5vw;
+    margin: 0 auto;
+    border-radius: 1vh;
+    overflow: hidden;
+    
+}
+
+._3d_photo_3 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+._3d_photo_3 img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+._3d_photo_3 img.active {
+
+    animation-duration: 1s;
+    animation-name: photos_3;
+    opacity: 1;
+}
+
+@keyframes photos_3 {
+    from {
+        transform: translateX(-100%)
+      }
+    
+      to {
+        transform: translateX(0)
+      }
+}
+  
+
+._3d_prev-button_3,
+._3d_next-button_3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+  
+._3d_prev-button_3 {
+    left: 10px;
+}
+  
+._3d_next-button_3 {
+    right: 10px;
+}
+
+
+
+._2d_container_3 {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+._2d_photo_3 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+._2d_photo_3 img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+._2d_photo_3 img.active {
+
+    animation-duration: 1s;
+    animation-name: _2d_photo_3;
+    opacity: 1;
+}
+
+@keyframes _2d_photo_3 {
+    from {
+        transform: translateX(-100%)
+      }
+    
+      to {
+        transform: translateX(0)
+      }
+}
+  
+
+._2d_prev-button_3,
+._2d_next-button_3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+  
+._2d_prev-button_3 {
+    left: 10px;
+}
+  
+._2d_next-button_3 {
+    right: 10px;
+}

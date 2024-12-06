@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+
+
+    src: local("Comfortaa"),    
+
+    url("./fonts/Comfortaa.ttf")
+
+}
+
+@font-face {
+    font-family: 'Comfortaa-Medium';
+    font-style: normal;
+
+
+    src: local("Comfortaa-Medium"),    
+
+    url("./fonts/Comfortaa-Medium.ttf")
+
+}
