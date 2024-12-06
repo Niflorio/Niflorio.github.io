@@ -187,7 +187,7 @@ body {
     .head_down{
         position: fixed;
         display: block;
-        top: 82vh;
+        top: 87vh;
         width: 100vw;
         height: 18vh;
         z-index: 10;
@@ -223,7 +223,7 @@ body {
 
     .head_left_logo_1{
         position: relative;
-        top: -7vh;
+        top: -3vh;
         left: 0;
         display: flex;
         flex-direction: column;
@@ -259,7 +259,7 @@ body {
     .head_left_abstract_top_crown,
     .head_left_abstract_top_box,
     .head_left_abstract_top_chat{
-        top: -7vh;
+        top: -3vh;
         z-index: 50;
     }
 
