@@ -2,11 +2,19 @@ html {
     scroll-behavior: smooth;  
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+  
 body {
     font-family: 'Comfortaa-Medium';
     color: #FFA45E;
     background-color: #18120E;
     overflow-x: hidden;
+    min-width: 100%;
 }
 
 
