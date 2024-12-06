@@ -6,7 +6,9 @@ body {
     font-family: 'Comfortaa-Medium';
     color: #FFA45E;
     background-color: #18120E;
+    overflow-x: hidden;
 }
+
 
 .theniflorio_discription{
     top: calc(70.5vh - 5.6vw);
