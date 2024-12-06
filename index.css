@@ -213,6 +213,7 @@ body {
     }
 
     .head_flex{
+        top: 87dvh;
         width: 96vw;
         position: fixed;
         display: flex;
@@ -233,7 +234,7 @@ body {
 
     .head_left_logo_1{
         position: relative;
-        top: -3dvh;
+        top: 3dvh;
         left: 0;
         display: flex;
         flex-direction: column;
@@ -269,7 +270,7 @@ body {
     .head_left_abstract_top_crown,
     .head_left_abstract_top_box,
     .head_left_abstract_top_chat{
-        top: -3dvh;
+        top: 3dvh;
         z-index: 50;
     }
 
