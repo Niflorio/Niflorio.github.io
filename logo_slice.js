@@ -5,6 +5,7 @@ const logo_3 = document.querySelector('.logo_3');
 const main = document.querySelector('.head_left_abstract_top_suit');
 const progress = document.querySelector('.head_left_abstract_top_crown');
 const product = document.querySelector('.head_left_abstract_top_box');
+const chat = document.querySelector('.head_left_abstract_top_chat');
 
 const _1_logo = document.querySelector('.f_l_1');
 const _3_logo = document.querySelector('.f_l_3');
@@ -43,11 +44,12 @@ function scrollToElement(elementId, offset = 0) {
 
 // Прокрутка к элементам с учетом смещения
 a.addEventListener('mouseover', slice);
-a.addEventListener('click', () => scrollToElement('thenif', 100)); // Смещение 100px
-a1.addEventListener('click', () => scrollToElement('thenif', 100)); // Смещение 100px
-main.addEventListener('click', () => scrollToElement('main', 20)); // Смещение 100px
-product.addEventListener('click', () => scrollToElement('product', 20)); // Смещение 100px
-progress.addEventListener('click', () => scrollToElement('progress', 20)); // Смещение 100px
-a.addEventListener('mouseout', reset); // Сброс анимации при уводе курсора
+a.addEventListener('click', () => scrollToElement('thenif', 100));
+a1.addEventListener('click', () => scrollToElement('thenif', 100));
+main.addEventListener('click', () => scrollToElement('main', 20));
+product.addEventListener('click', () => scrollToElement('product', 20)); 
+progress.addEventListener('click', () => scrollToElement('progress', 20));
+chat.addEventListener('click', () => scrollToElement('chat', 20)); 
+a.addEventListener('mouseout', reset);
 a1.addEventListener('mouseover', slice_1);
 a1.addEventListener('mouseout', reset_1);
